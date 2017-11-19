@@ -7,3 +7,16 @@
 {3,} - no mínimo n vezes.//3 vezes ou mais vezes
 {n,m} - no mínimo n+1 vezes, no máximo m vezes.
 {3,10} - no mínimo n+1 vezes, no máximo m vezes.//3 vezes e no máximo 10 vezes
+
+Podemos definir facilmente a classe de qualquer caractere com o [A-Z].
+Conhecemos todos os quantifiers como ?, +, * e {n}.
+\s significa whitespace e é um atalho para [ \t\r\n\f].
+\w significa word char e é uma atalho para [A-Za-z0-9_]
+
+Âncoras marcam uma posição específica no alvo, por isso não é possível combiná-las com um quantifier.
+Existem várias âncoras predefinidas, mas as mais comuns são ^, $ e \b. Lembrando também que os caracteres ^ e $ são meta-chars.
+
+\b é uma das âncoras, chamada de word boundary. Uma âncora não seleciona um caractere, 
+e sim apenas uma posição no texto alvo. Ou seja, 
+a âncora \b sozinha devolve nada (zero-length) mas combinada com um valor literal, ou outra regex, 
+podemos finalmente definir como encontrar a preposição de:
