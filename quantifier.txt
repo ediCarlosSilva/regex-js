@@ -1,0 +1,9 @@
+? - zero ou uma vez.
+* - zero ou mais vezes.
++ - uma ou mais vezes.
+{n} - exatamente n vezes.
+{3} - exatamente n vezes. //exemplo 3 vezes
+{n,} - no mínimo n vezes.
+{3,} - no mínimo n vezes.//3 vezes ou mais vezes
+{n,m} - no mínimo n+1 vezes, no máximo m vezes.
+{3,10} - no mínimo n+1 vezes, no máximo m vezes.//3 vezes e no máximo 10 vezes
