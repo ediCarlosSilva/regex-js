@@ -1,0 +1,4 @@
+exemplo diversas linguagens
+
+alvo: 11\22b33c
+regex: (\d\d)(\w)

@@ -20,3 +20,9 @@ Existem várias âncoras predefinidas, mas as mais comuns são ^, $ e \b. Lembra
 e sim apenas uma posição no texto alvo. Ou seja, 
 a âncora \b sozinha devolve nada (zero-length) mas combinada com um valor literal, ou outra regex, 
 podemos finalmente definir como encontrar a preposição de:
+
+quantifier
+? (zero ou um caractere)
++ (um ou mais caracteres)
+* (zero ou mais caracteres)
+{n,m} (min n, max m caracteres)
